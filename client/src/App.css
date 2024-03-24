@@ -1,0 +1,236 @@
+/* Reset Code */
+a {
+  text-decoration: none !important;
+}
+
+.footer {
+  color: white;
+  padding: 20px 0px;
+}
+.footer .title {
+  font-size: 1.25rem;
+}
+.title-jumbotron {
+  padding: 100px;
+}
+.bg-white {
+  background-color: white;
+}
+main {
+  padding: 20px 0;
+}
+.project-section > .row {
+  margin: 20px 0px;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.bk-review-bar-wrap {
+  width: 80px;
+  height: 55px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.bk-review-bar-wrap .bk-review-score {
+  position: absolute;
+  top: 0;
+  color: #fff;
+  background-color: #719de6;
+  text-align: center;
+  line-height: 55px;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+
+.category-link {
+  text-decoration: none;
+  background-color: #5bc0de;
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+}
+.category-link:hover {
+  color: white;
+}
+
+img.profile-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #719de6;
+  margin: 0 auto;
+}
+.profile-name {
+  text-decoration: none;
+}
+
+/* Project Page */
+.project-info h3 {
+  position: relative;
+}
+
+.project-info h3::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  position: absolute;
+  background-color: #49e1c7;
+  bottom: -7px;
+  left: 0px;
+  border-radius: 2px;
+}
+
+.project-info p {
+  text-indent: 30px;
+}
+.project-stack {
+  list-style: none;
+  padding: 0;
+}
+.project-stack li {
+  display: inline;
+}
+
+.project-info li img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.project-meta img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px 20px;
+}
+.user-inform {
+  display: flex;
+  align-items: center;
+}
+.user-inform p {
+  align-self: center;
+  margin-bottom: 0;
+}
+.checked {
+  color: orange;
+}
+.rating {
+  margin-top: 15px;
+}
+
+.rating-header {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.source-link {
+  text-decoration: none;
+  margin-right: 10px;
+}
+.source-link i {
+  color: orange;
+}
+
+/* User Profile Image */
+.user-profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.user-profile-name {
+  font-size: 22px;
+}
+.user-profile-jumpotran {
+  padding: 75px;
+}
+.user-social-icon i {
+  padding: 7px;
+  color: white;
+  background-color: black;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+/* Index Page */
+#callback {
+  min-height: 500px;
+  background-image: url("../src/Assets/Images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.9;
+  /* position: fixed; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#callback > * {
+  margin-bottom: 25px;
+}
+
+/* Developer Section */
+#top-developers {
+  margin: 50px 0;
+}
+
+.owl-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.owl-item {
+  text-align: center;
+}
+/* .owl-item .col-md-2{
+    margin: 0 auto;
+} */
+/* footer */
+.footer a {
+  color: white;
+  padding-left: 0px;
+}
+.footer a i {
+  margin-right: 5px;
+}
+
+.footer a:hover {
+  color: #ccc;
+}
+
+.footer .row {
+  border-bottom: 1px solid #ccc;
+}
+/* Contact Us Page CSS */
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}
+/* Our Carosel */
+/* .owl */

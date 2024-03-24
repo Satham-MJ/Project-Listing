@@ -6,7 +6,7 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
-          <a className="navbar-brand" href="index.html">
+          <Link className="navbar-brand" to="/">
             <img
               src={Logo}
               alt=""
@@ -15,7 +15,7 @@ const Header = () => {
               className="d-inline-block align-text-top"
             />
             <b>Newton</b> Listify
-          </a>
+          </Link>
 
           <button
             className="navbar-toggler"
@@ -31,33 +31,32 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="projects.html">
+                <Link className="nav-link" to="/projects">
                   Projects
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="contact-us.html">
+                <Link className="nav-link" to="/contact-us">
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
 
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="login.html">
+                <Link className="nav-link" to="/login">
                   <i className="fa fa-sign-in"></i> Login
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="register.html">
-                  {" "}
+                <Link className="nav-link" to="/register">
                   <i className="fa fa-user"></i> Sign Up
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
